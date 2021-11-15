@@ -1,4 +1,4 @@
-# Data-Analyst-Projects
+# How to perfrom Data-Analysis effectively
 
 ## How to analyse the data in a systematic way
 ![Main idea for analysis](https://user-images.githubusercontent.com/86042628/141689338-53708cea-aa82-4c1c-be14-7531aa225c0f.PNG)
