@@ -25,3 +25,8 @@ mck_color25 = sns.blend_palette(['#41aad9','#0892d0', '#24477f','black'],25)
 sns.color_palette('Blues')  
 sns.color_palette(mck_color2)  
 ![color grid](https://user-images.githubusercontent.com/86042628/141689201-47927864-c7bb-4861-aa39-678b0178107a.PNG)
+
+
+### Change font color in matplotlib/seaborn
+plt.rcParams.update({'text.color': "#24477f",### Mck deep blue  
+                     'axes.labelcolor': "#0892d0"}) ## Mck electric blue
