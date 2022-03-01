@@ -1,0 +1,33 @@
+############################## When wanna write nested list ##############################
+
+<li style="font-family:'Goudy Old Style';font-weight: bold;font-size:30px;color: #c1531f  "> Data insight from these hist plot:</li>
+
+><div class="alert alert-info" role="alert">
+><ul style="font-family:cursive;font-size:20px;color:  #2025bd">
+><li ><b>audio_mode</b> and <b>song_popularity</b> are Binary.</li>
+><li >No Data Distribution is Gaussian/Normal Distribution</li>
+><li >There are some Categorical Column like <b>key & time_signature</b></li>
+><li ><b>All Data are skewed to some extend</b>
+    ><li > To remove Skewness we can try following things</b>
+    <ul style="font-size:15px;">
+        <li><b>Log Transform</b>It can be easily done via Numpy, just by calling the log() function on the desired column.<mark>np.log(df['energy'])</mark></li>
+      <li><b>Square Root Transform</b>The square root sometimes works great and sometimes isn’t the best suitable option. In this case, I still expect the transformed distribution to look somewhat exponential, but just due to taking a square root the range of the variable will be smaller.We can apply a square root transformation via Numpy, by calling the sqrt()<mark>np.sqrt(df['energy'])</mark></li>
+        <li><b>Box-Cox Transform</b>To use it, your data must be positive — so that can be a bummer sometimes.we can import it from the Scipy library, but the check for the skew we need to convert the resulting Numpy array to a Pandas Series:</li>
+    </ul>
+></div>
+
+#############################   Single List   #############################
+
+<li style="font-family:'Goudy Old Style';font-weight: bold;font-size:40px;color: #c1531f  "> Checking Correlations</li>
+
+><div class="alert alert-info" role="alert">
+><ul style="font-family:cursive;font-size:20px;color:  #2025bd">
+><li >Since we have only numerical (Float) type variables we can directly check correlation and obtain some more insights.</li>
+></ul>
+></div>
+
+############################### Heading ###############################
+
+<li style="font-family:'Goudy Old Style';font-weight: bold;font-size:40px;color:  #c1531f   ">About the dataset</li>  sexy orange
+
+<li style="font-family:'Goudy Old Style';font-weight: bold;font-size:50px;color:  #1456a6   ">Spotify Song Popularity Prediction</li> Sexy Blue
